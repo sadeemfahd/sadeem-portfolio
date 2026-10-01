@@ -247,11 +247,10 @@ function App() {
               </h4>
 
               <p className="body-copy">
-                Developed an interactive virtual reality villa
-                experience using Unity and Meta Quest 3, transforming
-                architectural assets into an immersive environment
-                with realistic lighting, navigation, and interactive
-                features.
+                Developed immersive virtual reality experiences using
+                Unity and Meta Quest, transforming architectural assets
+                into interactive environments with realistic lighting,
+                navigation, customization, and XR interactions.
               </p>
 
               <div className="detail-list">
@@ -299,40 +298,148 @@ function App() {
             </div>
           </div>
 
+
+          {/* =====================================================
+              VR HOUSE PROJECTS
+          ===================================================== */}
           <div className="experience-showcase">
+
             <div className="showcase-header">
               <span className="big-index">02</span>
               <span className="micro-text">
-                PROJECT SHOWCASE
+                VR HOUSE PROJECTS
               </span>
             </div>
 
-            <div className="showcase-heading">
-              <h3>
-                Interactive
-                <br />
-                VR Villa.
-              </h3>
+            <div className="experience-project-grid">
 
-              <p>
-                Explore the presentation to see the project,
-                implementation process, interactions, and
-                final VR environment.
-              </p>
-            </div>
+              {/* PROJECT 01 */}
+              <article className="experience-project">
+                <div className="experience-project-top">
+                  <span>INTERNSHIP PROJECT</span>
+                  <span>01 / VR</span>
+                </div>
 
-            <div className="canva-frame">
-              <iframe
-                src="https://www.canva.com/design/DAHWognVXB8/p4ga-zKA-So5uV0jlwLnMQ/view?embed"
-                title="Interactive VR Villa Presentation"
-                loading="lazy"
-                allowFullScreen
-              />
-            </div>
+                <div className="experience-project-heading">
+                  <h3>
+                    Interactive
+                    <br />
+                    VR Villa.
+                  </h3>
 
-            <div className="small-footer">
-              <span>VR HOUSE — 2025</span>
-              <span>INTERACTIVE PRESENTATION ↗</span>
+                  <p>
+                    An interactive architectural VR experience
+                    developed during my internship at VR House,
+                    featuring realistic lighting, navigation,
+                    material customization, and XR interactions.
+                  </p>
+                </div>
+
+                <div className="experience-media experience-canva">
+                  <iframe
+                    src="https://www.canva.com/design/DAHWognVXB8/p4ga-zKA-So5uV0jlwLnMQ/view?embed"
+                    title="Interactive VR Villa Presentation"
+                    loading="lazy"
+                    allowFullScreen
+                  />
+                </div>
+
+                <div className="experience-feature-row">
+                  <span>INTERACTIONS</span>
+                  <span>LIGHTING</span>
+                  <span>MATERIALS</span>
+                </div>
+
+                <div className="experience-project-footer">
+                  <span>VR HOUSE — 2025</span>
+                  <span>INTERNSHIP PROJECT</span>
+                </div>
+              </article>
+
+
+              {/* PROJECT 02 */}
+              <article className="experience-project experience-project-return">
+                <div className="experience-project-top">
+                  <span>RETURN PROJECT</span>
+
+                  <span className="project-badge">
+                    INVITED BACK
+                  </span>
+                </div>
+
+                <div className="experience-project-heading">
+                  <h3>
+                    Multi-Villa
+                    <br />
+                    VR Experience.
+                  </h3>
+
+                  <p>
+                    Following the internship project, I was invited
+                    back by VR House to contribute to an additional
+                    VR experience featuring multiple villas,
+                    villa-to-villa navigation, lighting controls,
+                    and object and material customization.
+                  </p>
+                </div>
+
+                <div className="multi-villa-videos">
+
+                  <div className="experience-video-card">
+                    <div className="video-label">
+                      <span>01</span>
+                      <span>VR DEMO</span>
+                    </div>
+
+                    <video
+                      controls
+                      playsInline
+                      preload="metadata"
+                    >
+                      <source
+                        src="/projects/vr-house/multi-villa-1.mp4.mov"
+                        type="video/quicktime"
+                      />
+
+                      Your browser does not support video playback.
+                    </video>
+                  </div>
+
+
+                  <div className="experience-video-card">
+                    <div className="video-label">
+                      <span>02</span>
+                      <span>VR DEMO</span>
+                    </div>
+
+                    <video
+                      controls
+                      playsInline
+                      preload="metadata"
+                    >
+                      <source
+                        src="/projects/vr-house/multi-villa-2-small.mov"
+                        type="video/quicktime"
+                      />
+
+                      Your browser does not support video playback.
+                    </video>
+                  </div>
+
+                </div>
+
+                <div className="experience-feature-row">
+                  <span>MULTI-VILLA</span>
+                  <span>LIGHTING</span>
+                  <span>CUSTOMIZATION</span>
+                </div>
+
+                <div className="experience-project-footer">
+                  <span>VR HOUSE — 2025</span>
+                  <span>POST-INTERNSHIP PROJECT</span>
+                </div>
+              </article>
+
             </div>
           </div>
         </article>
@@ -425,7 +532,6 @@ function App() {
             </div>
 
 
-            {/* REAL VIDEO */}
             <div className="project-visual senior-video-visual">
               <div className="visual-top">
                 <span>PROJECT DEMO</span>
@@ -519,7 +625,6 @@ function App() {
             </div>
 
 
-            {/* CLOUD ARCHITECTURE VISUAL */}
             <div className="project-visual cloud-visual">
               <div className="visual-top">
                 <span>CLOUD ARCHITECTURE</span>
@@ -656,7 +761,6 @@ function App() {
             </div>
 
 
-            {/* WEBSITE MOCKUP */}
             <div className="project-visual summrah-visual">
               <div className="visual-top">
                 <span>WEB EXPERIENCE</span>
@@ -791,7 +895,6 @@ function App() {
             </div>
 
 
-            {/* ML DASHBOARD */}
             <div className="project-visual ml-visual">
               <div className="visual-top">
                 <span>MODEL PERFORMANCE</span>
@@ -946,7 +1049,6 @@ function App() {
             </div>
 
 
-            {/* DOCUMENT MOCKUP */}
             <div className="project-visual consortia-visual">
               <div className="visual-top">
                 <span>PROJECT DOCUMENTATION</span>
@@ -1048,6 +1150,14 @@ function App() {
               </a>
 
               <a
+                href="https://www.figma.com/design/XvF5f7RhoVbWzkUz1WM0MX/Untitled?node-id=0-1&p=f"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                VIEW PROTOTYPE ↗
+              </a>
+
+              <a
                 href="https://github.com/sadeemfahd/Consortia-Management-System-SRS"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -1060,170 +1170,14 @@ function App() {
 
 
         {/* =====================================================
-            PROJECT 06 — MULTI VILLA
-        ===================================================== */}
-        <article
-          className="project-card project-return"
-          id="multi-villa-project"
-        >
-          <div className="project-top">
-            <span className="big-index">06</span>
-
-            <div className="project-meta">
-              <span>RETURN PROJECT · VR HOUSE</span>
-              <span>2025</span>
-            </div>
-          </div>
-
-          <div className="project-layout">
-            <div className="project-content">
-              <div className="project-title-row">
-                <p className="micro-label">
-                  VR / XR · INTERACTIVE ENVIRONMENT
-                </p>
-
-                <span className="project-badge">
-                  INVITED BACK
-                </span>
-              </div>
-
-              <h3>
-                Multi-Villa
-                <br />
-                VR Experience.
-              </h3>
-
-              <p className="project-description">
-                Following the internship project, I was invited
-                back by VR House to contribute to an additional
-                interactive VR experience featuring multiple villas
-                and enhanced environment customization.
-              </p>
-
-              <div className="project-facts">
-                <div>
-                  <span>01</span>
-                  <p>Navigation between virtual villas</p>
-                </div>
-
-                <div>
-                  <span>02</span>
-                  <p>Interactive lighting controls</p>
-                </div>
-
-                <div>
-                  <span>03</span>
-                  <p>Object customization</p>
-                </div>
-
-                <div>
-                  <span>04</span>
-                  <p>Material customization</p>
-                </div>
-              </div>
-
-              <div className="tag-list project-tags">
-                <span>UNITY</span>
-                <span>C#</span>
-                <span>VR / XR</span>
-                <span>META QUEST</span>
-                <span>XR INTERACTION</span>
-              </div>
-            </div>
-
-
-            {/* VR CONTROL VISUAL */}
-            <div className="project-visual villa-visual">
-              <div className="visual-top">
-                <span>INTERACTIVE EXPERIENCE</span>
-                <span>06 / VR</span>
-              </div>
-
-              <div className="villa-stage">
-                <div className="villa-house">
-                  <div className="house-roof" />
-
-                  <div className="house-body">
-                    <div className="house-window" />
-                    <div className="house-door" />
-                    <div className="house-window" />
-                  </div>
-                </div>
-
-                <div className="villa-switcher">
-                  <div className="villa-active">
-                    <span>01</span>
-                    <strong>VILLA A</strong>
-                  </div>
-
-                  <span className="switch-arrow">→</span>
-
-                  <div>
-                    <span>02</span>
-                    <strong>VILLA B</strong>
-                  </div>
-
-                  <span className="switch-arrow">→</span>
-
-                  <div>
-                    <span>03</span>
-                    <strong>VILLA C</strong>
-                  </div>
-                </div>
-
-                <div className="villa-controls">
-                  <div>
-                    <span>LIGHT</span>
-                    <strong>ON</strong>
-                  </div>
-
-                  <div>
-                    <span>OBJECT</span>
-                    <strong>CHANGE</strong>
-                  </div>
-
-                  <div>
-                    <span>MATERIAL</span>
-                    <strong>SELECT</strong>
-                  </div>
-                </div>
-              </div>
-
-              <div className="visual-caption">
-                <div>
-                  <span>NAVIGATION</span>
-                  <strong>Multi-Villa</strong>
-                </div>
-
-                <div>
-                  <span>INTERACTION</span>
-                  <strong>Lighting</strong>
-                </div>
-
-                <div>
-                  <span>CUSTOMIZE</span>
-                  <strong>Objects</strong>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className="project-footer">
-            <span>VR HOUSE · POST-INTERNSHIP PROJECT</span>
-            <span>UNITY · VR · INTERACTION</span>
-          </div>
-        </article>
-
-
-        {/* =====================================================
-            PROJECT 07 — DENTAL
+            PROJECT 06 — DENTAL
         ===================================================== */}
         <article
           className="project-card"
           id="dental-project"
         >
           <div className="project-top">
-            <span className="big-index">07</span>
+            <span className="big-index">06</span>
 
             <div className="project-meta">
               <span>PROJECT MANAGEMENT</span>
@@ -1270,11 +1224,10 @@ function App() {
             </div>
 
 
-            {/* PROJECT MANAGEMENT DASHBOARD */}
             <div className="project-visual dental-visual">
               <div className="visual-top">
                 <span>PROJECT PLAN</span>
-                <span>07 / SPMP</span>
+                <span>06 / SPMP</span>
               </div>
 
               <div className="management-dashboard">
@@ -1608,7 +1561,6 @@ function App() {
         </div>
 
 
-        {/* AWARD 01 */}
         <article className="achievement-card">
           <div className="achievement-content">
             <div className="achievement-meta">
@@ -1661,7 +1613,6 @@ function App() {
         </article>
 
 
-        {/* AWARD 02 */}
         <article className="achievement-card">
           <div className="achievement-content">
             <div className="achievement-meta">
@@ -1714,7 +1665,6 @@ function App() {
         </article>
 
 
-        {/* AWARD 03 */}
         <article className="achievement-card">
           <div className="achievement-content">
             <div className="achievement-meta">
@@ -1760,7 +1710,6 @@ function App() {
         </article>
 
 
-        {/* AWARD 04 */}
         <article className="achievement-card">
           <div className="achievement-content">
             <div className="achievement-meta">
@@ -1806,7 +1755,6 @@ function App() {
         </article>
 
 
-        {/* AWARD 05 */}
         <article className="achievement-card">
           <div className="achievement-content">
             <div className="achievement-meta">
